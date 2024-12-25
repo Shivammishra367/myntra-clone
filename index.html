@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Shopping for Men,Women,kids and all</title>
+  <link rel="icon" href= "myntralogo.png"type="image/x-icon" height="150px"/>
+
+  <!-- Linking Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Myntra</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products, brands and more">
+    </div>
+    <div class="menu">
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Kids</a>
+      <a href="#">Home & Living</a>
+      <a href="#">Beauty</a>
+    </div>
+    
+    <!-- Cart icon wrapped in a link -->
+    <a href="#" class="cart">
+      <img src="cart.webp">
+      <span class="cart-count">0</span>
+    </a>
+
+    <button class="menu-toggle">☰</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="banner 2.webp" alt="Hero Banner">
+    <div class="hero-content">
+      <p style="background-image: url('banner1.jpg');">
+      <h1>Biggest Sale of the Season</h1>
+      <p>Up to 70% off on top brands</p>
+      <button>Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <div class="category-item">
+        <img src="men.jpg" alt="Men" height="130px">
+        <p>Men</p>
+      </div>
+      <div class="category-item">
+        <img src="women.jpg" alt="Women">
+        <p>Women</p>
+      </div>
+      <div class="category-item">
+        <img src="kid.jpg" alt="Kids">
+        <p>Kids</p>
+      </div>
+      <div class="category-item">
+        <img src="home.jpg" alt="Home & Living" height="130px">
+        <p>Home & Living</p>
+      </div>
+      <div class="category-item">
+        <img src="all.jpg" alt="All" height="130px">
+        <p>All</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-item" data-category="men">
+        <img src="mentshirt.jpg" alt="Product 1">
+        <p>T-shirt</p>
+        <span>$20</span>
+      </div>
+      <div class="product-item" data-category="women">
+        <img src="dress.jpg" alt="Product 2">
+        <p>Dress</p>
+        <span>$40</span>
+      </div>
+      <div class="product-item" data-category="kids">
+        <img src="sneakers.jpg" alt="Product 3">
+        <p>Sneakers</p>
+        <span>$60</span>
+      </div>
+      <div class="product-item" data-category="men">
+        <img src="jacket.jpg" alt="Product 4">
+        <p>Jacket</p>
+        <span>$80</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Myntra Clone. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
